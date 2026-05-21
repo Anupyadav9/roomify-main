@@ -40,6 +40,10 @@ export function Layout({ children }: { children: React.ReactNode }) {
       </head>
       <body>
         {children}
+        <script
+          src="https://supportai-main.vercel.app/chatBot.js"
+          data-owner-id="usr_116632893110878210">
+        </script>
         <ScrollRestoration />
         <Scripts />
       </body>
